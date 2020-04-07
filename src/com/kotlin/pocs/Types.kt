@@ -1,6 +1,7 @@
 package com.kotlin.pocs
 
 import java.math.BigInteger
+import kotlin.random.Random
 
 fun main(args: Array<String>) {
     val p = Player()
@@ -26,6 +27,9 @@ fun main(args: Array<String>) {
     } else {
         println("e1 != e2")
     }
+
+    val p2 = Player.create()
+    println(p2.uuid)
 
 }
 
@@ -84,6 +88,7 @@ interface Renderable {
 
 open class Player: Entity, Renderable {
     override val id: Int = 123;
+    val uuid: Int = Random.nextInt(1, 10000)
 
     override fun setPosition(x: Int, y: Int) {
         TODO("Not yet implemented")
@@ -91,6 +96,13 @@ open class Player: Entity, Renderable {
 
     override fun render(): Unit {
         super<Renderable>.render()
+    }
+
+    companion object {
+        @JvmStatic
+        fun create(): Player {
+            return Player()
+        }
     }
 }
 

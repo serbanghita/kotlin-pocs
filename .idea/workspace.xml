@@ -7,9 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb5928d-e521-4b1c-aa36-34dd65d3c052" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kotlin/pocs/Types.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kotlin/pocs/FilteringAndSorting.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kotlin/pocs/HigherOrderFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kotlin/pocs/predicates/Predicates.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kotlin/pocs/Types.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kotlin/pocs/Types.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,54 +63,28 @@
       <recent name="C:\Users\user\IdeaProjects\kotlin-pocs\src\com\kotlin\pocs" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TypesKt">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kotlin.pocs.App" />
-      <module name="kotlin-pocs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kotlin.pocs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleOfEFKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.PredicatesKt (1)">
+    <configuration name="FilteringAndSortingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlin-pocs" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.kotlin.pocs.ExampleOfEFKt" />
+      <option name="MAIN_CLASS_NAME" value="com.kotlin.pocs.FilteringAndSortingKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="HigherOrderFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="kotlin-pocs" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.kotlin.pocs.FibonacciKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InfixKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-pocs" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.kotlin.pocs.InfixKt" />
+      <option name="MAIN_CLASS_NAME" value="com.kotlin.pocs.HigherOrderFunctionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,6 +99,32 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicatesKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-pocs" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.kotlin.pocs.predicates.PredicatesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicatesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-pocs" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.kotlin.pocs.PredicatesKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PredicatesKt (1)" />
+        <item itemvalue="Kotlin.PredicatesKt" />
+        <item itemvalue="Kotlin.FilteringAndSortingKt" />
+        <item itemvalue="Kotlin.HigherOrderFunctionKt" />
         <item itemvalue="Kotlin.TypesKt" />
-        <item itemvalue="Kotlin.FibonacciKt" />
-        <item itemvalue="Kotlin.InfixKt" />
-        <item itemvalue="Kotlin.ExampleOfEFKt" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +162,7 @@
       <workItem from="1586177782037" duration="5085000" />
       <workItem from="1586183630006" duration="10621000" />
       <workItem from="1586241377599" duration="4411000" />
-      <workItem from="1586247557044" duration="1532000" />
+      <workItem from="1586247557044" duration="12955000" />
     </task>
     <servers />
   </component>
@@ -184,22 +186,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1586184864084" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586249279873">
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom" timestamp="1586287302856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1586249279873" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586249279873">
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1586287302856" />
+    <state width="1877" height="349" key="GridCell.Tab.0.center" timestamp="1586287302856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1586249279873" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586249279873">
+    <state width="1877" height="349" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1586287302856" />
+    <state width="1877" height="349" key="GridCell.Tab.0.left" timestamp="1586287302856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1586249279873" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586249279873">
+    <state width="1877" height="349" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1586287302856" />
+    <state width="1877" height="349" key="GridCell.Tab.0.right" timestamp="1586287302856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1586249279873" />
+    <state width="1877" height="349" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1586287302856" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1586184158453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
